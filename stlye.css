@@ -30,9 +30,9 @@ form{
   align-items: center;
 
 }
-b{
-  margin-left: 2px;
+.name td{
+  font-weight: bolder;
 }
-td{
-  font-weight: bold;
+b{
+  padding-left: 2px;
 }
