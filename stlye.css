@@ -1,3 +1,4 @@
+
 .sex{
   padding-right: 65px;
 }
@@ -12,12 +13,26 @@ h3{
 form{
   height: 512px;
   width: 370px;
-  margin-left: 570px;
+  margin: auto;
   background: rgb(255, 226, 179);
 }
 .area{
-  width: 255px;
+  width: 240px;
 }
 .btn{
-  margin-left: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+b{
+  margin-left: 2px;
+}
+td{
+  font-weight: bold;
 }

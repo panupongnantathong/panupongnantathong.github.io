@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <title>Web Form</title>
+</head>
+<body>
+
+    <h3>แบบสอบถาม</h3> 
+    <hr>
+    <div class="con_form">
+        <form>
+            <b>ข้อมูลผู้ตอบแบบสอบถาม</b><br>    
+        <table>
+            <thead>         
+                <td>ชื่อ-นามสกุล</td>
+                <th><input type="text" name="name" required class="area"><br></th>
+            </thead>
+            <thead>
+                <th>รหัสนักศึกษา</th>
+                <th><input type="text" name="idstd" required class="area"><br></th>
+            </thead>
+        </table>
+
+        <table class="topic-sex">
+            <thead>
+                <th class="sex">เพศ</th>
+                <td><input type="radio" name="sex" required checked>ชาย</td>
+                <td><input type="radio" name="sex" required>หญิง</td>
+            </thead>
+        </table>
+
+        <table>
+            <thead>
+                <th class="topic-fac">สังกัดคณะ</th>
+                <th>         
+                <select name="faculty" size="11" required>
+                    <option value="science">วิทยาศาสตร์</option>
+                    <option value="cs">วิทยาการคอมพิวเตอร์</option>
+                    <option value="education">ครุศาสตร์</option>
+                    <option value="business">บริหารธุรกิจและการจัดการ</option>
+                    <option value="humanities">มนุษยศาสตร์</option>
+                    <option value="engineering">เทคโนโลยีอุตสาหกรรม</option>
+                    <option value="agriculture">เกษตรศาสตร์</option>
+                    <option value="medicine">พยาบาลศาสตร์</option>
+                    <option value="public_health">สาธารณสุขศาสตร์</option>
+                    <option value="thai_medicine">แพทย์แผนไทยและทางเลือก</option>
+                    <option value="law">นิติศาสตร์</option>
+                 </th>   
+                </select>
+            </thead>
+        </table>
+
+        <table>
+            <tbody>
+                <tr>
+                    <b>แม่สีที่ชอบ</b>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="color">สีแดง
+                        <input type="checkbox" name="color">สีเขียว
+                        <input type="checkbox" name="color">สีน้ำเงิน
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <tbody>
+                <tr>
+                    <b>ผลไม้ที่ชอบ</b>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="fruits">มะม่วง
+                        <input type="checkbox" name="fruits">น้อยหน่า
+                        <input type="checkbox" name="fruits">ทุเรียน <br>
+                        <input type="checkbox" name="fruits">ลำไย
+                        <input type="checkbox" name="fruits">ฝรั่ง
+                        <input type="checkbox" name="fruits">แตงโม
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <tbody>
+                <tr>
+                    <b>อาหารที่ชอบ</b>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="food">ต้มยำกุ้ง
+                        <input type="checkbox" name="food">ไข่เจียวหมูสับ
+                        <input type="checkbox" name="food">แกงข่าไก่<br>
+                        <input type="checkbox" name="food">แกงเขียวหวาน
+                        <input type="checkbox" name="food">ผัดไทย
+                        <input type="checkbox" name="food">ราดหน้าหมี่กรอบ
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="btn">
+            <input type="submit" value="บันทึก" class="btn">
+        </div>
+        
+    </form>
+    </div>
+
+    
+</body>
+</html>
