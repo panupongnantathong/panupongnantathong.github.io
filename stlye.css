@@ -1,0 +1,23 @@
+.sex{
+  padding-right: 65px;
+}
+
+.topic-fac{
+  padding-right: 20px;
+}
+
+h3{
+  text-align: center;
+}
+form{
+  height: 512px;
+  width: 370px;
+  margin-left: 570px;
+  background: rgb(255, 226, 179);
+}
+.area{
+  width: 255px;
+}
+.btn{
+  margin-left: 145px;
+}
